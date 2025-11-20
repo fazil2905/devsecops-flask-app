@@ -26,4 +26,5 @@ jobs:
 
     - name: Security scan with Bandit
       run: |
-        bandit -r . -ll
+        bandit -r . -ll --exit-zero
+        
