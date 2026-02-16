@@ -90,7 +90,7 @@ Deploying to AWS (ECS, EKS, Lambda, etc.) or other infrastructure.
 Integrating monitoring, logging, vulnerability scanning, and compliance gates.
 
 Because the app is minimal, it allows you to focus on building and evaluating your DevSecOps pipeline without complexity from the application itself.
-
+```
 Project Structure
 devsecops-flask-app/
 │
@@ -98,7 +98,7 @@ devsecops-flask-app/
 ├── README.md       # This file
 └── .github/
      └── workflows/ # (Optional) placeholder for GitHub Actions configs for CI/CD
-
+```
 
 app.py — contains the main HTTP route(s) and server logic.
 
