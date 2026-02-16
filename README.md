@@ -97,7 +97,7 @@ devsecops-flask-app/
 ├── app.py          # Main Flask application entry point
 ├── README.md       # This file
 └── .github/
-     └── workflows/ # (Optional) placeholder for GitHub Actions configs for CI/CD
+     └── workflows/ # GitHub Actions configs for CI/CD
 ```
 
 app.py — contains the main HTTP route(s) and server logic.
